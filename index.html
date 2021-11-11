@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5bbce2ab5d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Categorías</title>
+</head>
+
+<body>
+
+    <div id="card-categorias" class="columns is-centered section">
+        <div class="column is-8">
+            <article class="box pb-6">
+
+                <h2 class="title is-2 has-text-weight-bold">Categorías</h2>
+                <div class="columns">
+
+                    <form class="column is-12">
+
+                        <label class="label mt-5 ">Nombre</label>
+
+                        <div class="columns is-centered mr-2 ">
+                            <div class="column is-10">
+
+                                <input class="input is-medium " id="input-categorias" type="text" name="name">
+                            </div>
+
+                            <div class="column is-2 ">
+                                <input id="btn-agregar-cat" type="button" value="Agregar"
+                                    class="button is-medium is-success  ">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="mt-6">
+                    <div class="columns is-vcentered">
+                        <div class="column">
+                            <span class="tag is-primary is-light">Comida</span>
+                        </div>
+
+                        <div class="column is-narrow">
+                            <button class="button is-size-7">Editar</button>
+                            <button class="button is-size-7">Eliminar</button>
+
+                        </div>
+                    </div>
+            </article>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
